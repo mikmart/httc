@@ -17,3 +17,5 @@ Imports:
     cachem,
     httr,
     rlang
+URL: https://github.com/mikmart/httc
+BugReports: https://github.com/mikmart/httc/issues
