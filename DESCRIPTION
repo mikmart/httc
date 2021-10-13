@@ -1,0 +1,19 @@
+Package: httc
+Title: HTTP Requests with Automatic Caching
+Version: 0.0.1
+Authors@R: 
+    person(given = "Mikko",
+           family = "Marttila",
+           role = c("aut", "cre"),
+           email = "mikkmart@pm.me")
+Description: Wrappers for httr verbs make it easy to quickly cache HTTP
+  responses according to header information.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    cachem,
+    httr,
+    rlang
